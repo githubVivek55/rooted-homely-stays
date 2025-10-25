@@ -223,10 +223,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='contact mt-8'>
+        <section className='contact mt-6'>
           <div className='bg-white/60 backdrop-blur-sm rounded-xl shadow-lg p-6 md:p-8'>
             <h2 className='text-2xl font-semibold text-slate-800'>Contact</h2>
-            <p className='mt-2 text-slate-700 max-w-xl'>
+            <p className='mt-4 text-slate-700 max-w-xl'>
               To inquire or book a stay, get in touch and we'll respond within
               24 hours. Prefer phone? Call us — otherwise send a quick message
               below.
