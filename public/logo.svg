@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rooted Homely Stays logo">
+  <rect width="120" height="120" rx="16" fill="#0b5" />
+  <g transform="translate(20,20)" fill="#fff">
+    <path d="M20 60 L35 35 L50 60 Z"/>
+    <rect x="10" y="60" width="60" height="20" rx="4" />
+  </g>
+  <text x="60" y="108" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#013" text-anchor="middle">Rooted</text>
+</svg>
