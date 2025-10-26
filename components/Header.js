@@ -53,27 +53,6 @@ export default function Header() {
             </div>
           </div>
         </div>
-
-        <nav className='hidden sm:flex items-center space-x-6'>
-          <a
-            href='#services'
-            className='text-sm text-slate-700 hover:text-teal-600 transition'
-          >
-            Services
-          </a>
-          <a
-            href='#contact'
-            className='text-sm text-slate-700 hover:text-teal-600 transition'
-          >
-            Contact
-          </a>
-          <a
-            href='#book'
-            className='ml-2 inline-block rounded-md bg-teal-600 text-white text-sm px-3 py-1 hover:bg-teal-700 transition'
-          >
-            Book
-          </a>
-        </nav>
       </div>
 
       <style jsx>{`
