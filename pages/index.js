@@ -146,15 +146,20 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='featured mt-10'>
+        <section className='featured mt-12'>
           <h2 className='text-2xl font-semibold text-slate-800 mb-4'>
             Featured properties
           </h2>
 
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
             <article className='bg-white rounded-lg shadow-sm overflow-hidden'>
-              <div className='h-40 bg-slate-100 flex items-center justify-center'>
-                <span className='text-slate-400'>Image placeholder</span>
+              <div className='h-40 w-full'>
+                <img
+                  loading='lazy'
+                  src='https://picsum.photos/id/1018/1200/800'
+                  alt='Cozy Cottage'
+                  className='w-full h-40 object-cover'
+                />
               </div>
               <div className='p-4'>
                 <h3 className='font-medium text-slate-800'>Cozy Cottage</h3>
@@ -162,9 +167,6 @@ export default function Home() {
                   2 beds · 1 bath · Near downtown
                 </p>
                 <div className='mt-3 flex items-center justify-between'>
-                  <span className='text-teal-600 font-semibold'>
-                    $95 / night
-                  </span>
                   <a
                     href='#'
                     className='text-sm text-slate-700 hover:underline'
@@ -176,8 +178,13 @@ export default function Home() {
             </article>
 
             <article className='bg-white rounded-lg shadow-sm overflow-hidden'>
-              <div className='h-40 bg-slate-100 flex items-center justify-center'>
-                <span className='text-slate-400'>Image placeholder</span>
+              <div className='h-40 w-full'>
+                <img
+                  loading='lazy'
+                  src='https://picsum.photos/id/1025/1200/800'
+                  alt='Sunny Apartment'
+                  className='w-full h-40 object-cover'
+                />
               </div>
               <div className='p-4'>
                 <h3 className='font-medium text-slate-800'>Sunny Apartment</h3>
@@ -185,9 +192,6 @@ export default function Home() {
                   1 bed · 1 bath · Quiet neighborhood
                 </p>
                 <div className='mt-3 flex items-center justify-between'>
-                  <span className='text-teal-600 font-semibold'>
-                    $75 / night
-                  </span>
                   <a
                     href='#'
                     className='text-sm text-slate-700 hover:underline'
@@ -199,8 +203,13 @@ export default function Home() {
             </article>
 
             <article className='bg-white rounded-lg shadow-sm overflow-hidden'>
-              <div className='h-40 bg-slate-100 flex items-center justify-center'>
-                <span className='text-slate-400'>Image placeholder</span>
+              <div className='h-40 w-full'>
+                <img
+                  loading='lazy'
+                  src='https://picsum.photos/id/1036/1200/800'
+                  alt='Family Home'
+                  className='w-full h-40 object-cover'
+                />
               </div>
               <div className='p-4'>
                 <h3 className='font-medium text-slate-800'>Family Home</h3>
@@ -208,9 +217,6 @@ export default function Home() {
                   3 beds · 2 baths · Great for families
                 </p>
                 <div className='mt-3 flex items-center justify-between'>
-                  <span className='text-teal-600 font-semibold'>
-                    $140 / night
-                  </span>
                   <a
                     href='#'
                     className='text-sm text-slate-700 hover:underline'
@@ -223,7 +229,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='contact mt-6'>
+        <section className='mt-12'>
           <div className='bg-white/60 backdrop-blur-sm rounded-xl shadow-lg p-6 md:p-8'>
             <h2 className='text-2xl font-semibold text-slate-800'>Contact</h2>
             <p className='mt-4 text-slate-700 max-w-xl'>
@@ -325,9 +331,6 @@ export default function Home() {
         }
         .services ul {
           padding-left: 1.2rem;
-        }
-        .contact {
-          margin-top: 1.2rem;
         }
       `}</style>
     </>
